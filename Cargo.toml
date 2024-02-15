@@ -19,7 +19,7 @@ include = [
 ]
 
 [dependencies]
-arbitrary = { version = "1.0", optional = true, features = ["derive"] }
+arbitrary = { version = "1.0", optional = false , features = ["derive"] }
 byteorder = "1.2"
 combine = "3.8.1"
 gdbstub = { version = "0.6.2", optional = true }
